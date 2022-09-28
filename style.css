@@ -1,0 +1,19 @@
+#demo-1{
+    background-color:cornflowerblue;
+    /* padding-left:30px;
+    padding-right:30px; */
+    /* margin:50px; */
+    padding: 30px 40px 50px 60px;
+    margin: 30px 40px 50px 60px;
+    /* border-color:honeydew;
+    border-style:dotted;
+    border-width:5px; */
+    border: 5px honeydew dotted;
+}
+
+#demo-2{
+    background-color:gold;
+    padding:30px;
+    margin:50px;
+}
+    
