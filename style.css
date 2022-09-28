@@ -17,3 +17,17 @@
     margin:50px;
 }
     
+#bg-demo{
+    background-image:url("images/coffee-1.png");
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+    background-attachment:fixed;
+}
+
+#demo-3{
+    background-color:gold;
+    padding:30px;
+    margin:50px;
+}
