@@ -24,10 +24,45 @@
     background-position:center;
     background-size:contain;
     background-attachment:fixed;
+    opacity:0.25;
 }
 
 #demo-3{
-    background-color:gold;
-    padding:30px;
-    margin:50px;
+    background-color:cornflowerblue;
+    /* padding-left:30px;
+    padding-right:30px; */
+    /* margin:50px; */
+    padding: 30px 40px 50px 60px;
+    margin: 30px 40px 50px 60px;
+    /* border-color:honeydew;
+    border-style:dotted;
+    border-width:5px; */
+    border: 5px honeydew dotted;
+}
+
+#z-index-demo-1{
+    background-color:deeppink;
+    height:200px;
+    width:200px;
+    position:relative;
+    z-index:3;
+}
+
+#z-index-demo-2{
+    background-color:pink;
+    height:200px;
+    width:200px;
+    position:relative;
+    top:200px;
+    z-index:1;
+}
+
+#z-index-demo-3{
+    background-color:peachpuff;
+    height:200px;
+    width:200px;
+    position:relative;
+    top:-400px;
+    left:100px;
+    z-index:2;
 }
